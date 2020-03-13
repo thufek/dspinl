@@ -1,0 +1,20 @@
+﻿Hej Stefan!
+
+Här är en beskrivning av de patterns jag använt och var:
+
+1 Singleton i Logger-klassen
+
+
+2 ICustomerRepository
+
+
+3 Retry i InterestServices
+
+
+4 Cache / Decorator i InterestServicesCachingDecorator  ((Har ingen DI i controllern och vet ej hur jag ska göra med Livslängden för cachen då ditt exempel aldrig lades ut på kurswebben eller git)) 
+
+
+5 LAZY LOADING på list customers, hämtar alla invoices och relevant data efter man klickar på personnummer
+
+
+Can Salman - CMS19 -
